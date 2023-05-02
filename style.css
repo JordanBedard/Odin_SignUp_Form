@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital@1&display=swap');
+
+body {
+    block-size: auto;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+
+.pageContainer {
+    background-color: rgb(28, 27, 27);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.innerPageContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 70vw;
+    background-color: #f9fafb;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 40vw;
+    background-image: url("/img/gardening.jpg");
+    background-position-x: center;
+    background-size: cover;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 14rem;
+    background: rgb(21, 21, 21);
+    height: 8rem;
+    width: 29.75rem;
+    opacity: 0.8;
+}
+
+.icon {
+    width: 8rem;
+    height: 8rem;
+    color: #F9F7F7;
+    position: relative;
+    left: 2rem;
+}
+
+.logoText {
+    color: #F9F7F7;
+    text-align: center;
+    font-size: 3rem;
+    position: relative;
+    left: 2.5rem;
+    font-weight: 500;
+    font-family: 'Poltawski Nowy', serif;
+}
+
+.pictureCopyright {
+    position: absolute;
+    bottom: 10px;
+    left: 20vw;
+    color: #F9F7F7;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a:link {
+    color: #596d48;
+}
+
+a:visited {
+    color: #596d48;
+}
+
+.formPageContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.formTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 30vh;
+}
+
+.formFirstParagraph {
+    font-size: 1.5rem;
+    width: 90%;
+    font-weight: 600;
+    position: relative;
+    bottom: 4rem;
+}
+
+.formSecondParagraph {
+    font-size: 1.5rem;
+    width: 90%;
+    font-weight: 600;
+    position: relative;
+    bottom: 2.5rem;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.formPageTitle {
+    font-size: 1.5rem;
+    width: 90%;
+    position: relative;
+    bottom: 4rem;
+    font-weight: 600;
+}
+
+.userForm {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+}
+
+.nameContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
+
+.passwordContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
+
+.submitContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 35vh;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #F9F7F7;
+    background-color: #596d48;
+    font-size: 1.15rem;
+    font-weight: 500;
+    width: 14rem;
+    height: 3rem;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button:hover {
+    background-color: #789162;
+}
+
+.accountText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.15rem;
+    font-weight: 500;
+    position: relative;
+    top: 3rem;
+    left: 3rem;
+}
+
+.logIn {
+    padding-left: 0.25rem;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    color: #000000dc;
+    gap: 12px;
+    font-size: 1rem;
+    width: 100%;
+    font-weight: 600;
+    position: relative;
+    top: 14.5rem;
+}
