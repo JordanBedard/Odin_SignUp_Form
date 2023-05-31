@@ -40,39 +40,42 @@
                 </div>
                 <div class="formContainer">
                     <div class="formPageTitle">Let's do this!</div>
-                    <form class="userForm">
-                        <div class="nameContainer">
-                            <div class="firstName">
-                                <label for="first_name">FIRST NAME</label><br>
-                                <input type="text" id="first_name" name="first_name">
+                    <div class="form">
+                        <form class="userForm">
+                            <div class="nameContainer">
+                                <div class="firstName">
+                                    <label for="first_name">FIRST NAME</label><br>
+                                    <input type="text" id="first_name" name="first_name" class="formInput">
+                                </div>
+                                <div class="lastName">
+                                    <label for="last_name">LAST NAME</label><br>
+                                    <input type="text" id="last_name" name="last_name">
+                                </div>
                             </div>
-                            <div class="lastName">
-                                <label for="last_name">LAST NAME</label><br>
-                                <input type="text" id="last_name" name="last_name">
+                            <div class="contactContainer">
+                                <div class="email">
+                                    <label for="user_email">EMAIL</label><br>
+                                    <input type="email" id="user_email" name="email">
+                                </div>
+                                <div class="phoneNumber">
+                                    <label for="phone">PHONE NUMBER</label><br>
+                                    <input type="tel" id="phone" name="phone" placeholder="123-456-7890"
+                                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                                </div>
                             </div>
-                        </div>
-                        <div class="contactContainer">
-                            <div class="email">
-                                <label for="user_email">EMAIL</label><br>
-                                <input type="email" id="user_email" name="email">
+                            <div class="passwordContainer">
+                                <div class="password">
+                                    <label for="user_password">PASSWORD</label><br>
+                                    <input type="password" id="user_password" name="password">
+                                </div>
+                                <div class="confirmPassword">
+                                    <label for="confirm_password">CONFIRM PASSWORD</label><br>
+                                    <input type="password" id="confirm_password" name="confirm_password">
+                                </div>
                             </div>
-                            <div class="phoneNumber">
-                                <label for="phone">PHONE NUMBER</label><br>
-                                <input type="tel" id="phone" name="phone" placeholder="123-456-7890"
-                                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-                            </div>
-                        </div>
-                        <div class="passwordContainer">
-                            <div class="password">
-                                <label for="user_password">PASSWORD</label><br>
-                                <input type="password" id="user_password" name="password">
-                            </div>
-                            <div class="confirmPassword">
-                                <label for="confirm_password">CONFIRM PASSWORD</label><br>
-                                <input type="password" id="confirm_password" name="confirm_password">
-                            </div>
-                        </div>
-                    </form>
+                            <div class="passwordMatch">*Passwords do not match</div>
+                        </form>
+                    </div>
                 </div>
                 <div class="submitContainer">
                     <div class="button">Create Account</div>
